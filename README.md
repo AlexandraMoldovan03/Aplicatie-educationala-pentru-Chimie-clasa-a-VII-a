@@ -1,0 +1,1 @@
+# Aplica-ie-educa-ional-Chimie-clasa-a-VII-a
