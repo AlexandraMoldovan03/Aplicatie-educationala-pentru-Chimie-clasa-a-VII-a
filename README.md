@@ -1,7 +1,5 @@
 # Aplicație educațională Chimie clasa a VII-a
 
-# Aplicație educațională – Chimie clasa a VII-a
-
 Această aplicație este realizată ca parte a lucrării de licență și are scopul de a sprijini elevii de gimnaziu în învățarea chimiei printr-o abordare interactivă și adaptată vârstei.
 
 ## Funcționalități
