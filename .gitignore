@@ -1,0 +1,16 @@
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.db
+*.obj
+*.exe
+*.log
+*.dll
+*.pdb
+*.ipch
+Debug/
+Release/
+x64/
+x86/
+*.vsidx

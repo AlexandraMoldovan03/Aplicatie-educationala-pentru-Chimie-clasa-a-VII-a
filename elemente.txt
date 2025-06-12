@@ -1,0 +1,36 @@
+H|Hidrogen|1|1.008|Hidrogenul este cel mai ușor și cel mai abundent element din Univers. Este utilizat în combustibili și în reacții chimice.
+He|Heliu|2|4.0026|Heliul este un gaz nobil incolor și inodor, utilizat în baloane și în industria criogenică.
+Li|Litiu|3|6.94|Litiul este un metal alcalin ușor, folosit în baterii și tratamente medicale.
+Be|Beriliu|4|9.0122|Beriliul este un metal alcalino-pământos rezistent la coroziune, utilizat în industrie și aeronautică.
+B|Bor|5|10.81|Borul este un metaloid esențial în producția de sticlă, ceramică și detergenți.
+C|Carbon|6|12.011|Carbonul este elementul fundamental al vieții, existând sub diverse forme, inclusiv diamant și grafit.
+N|Azot|7|14.007|Azotul este un gaz incolor care compune 78% din atmosfera Pământului, utilizat în fertilizanți.
+O|Oxigen|8|15.999|Oxigenul este esențial pentru respirație și combustie, fiind al doilea cel mai abundent gaz din atmosferă.
+F|Fluor|9|18.998|Fluorul este un halogen reactiv utilizat în paste de dinți pentru prevenirea cariilor.
+Ne|Neon|10|20.180|Neonul este un gaz nobil utilizat în iluminatul neon și în unele aplicații criogenice.
+Na|Sodiu|11|22.990|Sodiul este un metal alcalin foarte reactiv, esențial pentru funcționarea nervilor și mușchilor.
+Mg|Magneziu|12|24.305|Magneziul este un metal ușor folosit în aliaje și în organism pentru sănătatea oaselor.
+Al|Aluminiu|13|26.982|Aluminiul este un metal ușor și rezistent la coroziune, utilizat în construcții și industria aeronautică.
+Si|Siliciu|14|28.085|Siliciul este un metaloid folosit în fabricarea cipurilor electronice și a sticlei.
+P|Fosfor|15|30.974|Fosforul este un element esențial pentru viață, utilizat în fertilizanți și explozivi.
+S|Sulfură|16|32.06|Sulful este utilizat în producția de acid sulfuric și în vulcanizarea cauciucului.
+Cl|Clor|17|35.45|Clorul este un halogen utilizat în dezinfectanți și în tratarea apei potabile.
+Ar|Argon|18|39.948|Argonul este un gaz nobil utilizat în becuri și ca atmosferă inertă în sudură.
+K|Potasiu|19|39.098|Potasiul este esențial pentru funcționarea celulelor și este utilizat în fertilizanți.
+Ca|Calciu|20|40.078|Calciul este esențial pentru oase și dinți, fiind utilizat și în construcții.
+Sc|Scandiu|21|44.956|Scandiul este utilizat în aliaje ușoare și în industria aeronautică.
+Ti|Titan|22|47.867|Titanul este un metal rezistent la coroziune, folosit în industria medicală și aerospațială.
+V|Vanadiu|23|50.942|Vanadiul este utilizat în producția de oțeluri rezistente.
+Cr|Crom|24|51.996|Cromul este utilizat pentru protecția împotriva coroziunii și în oțeluri inoxidabile.
+Mn|Mangan|25|54.938|Manganul este esențial pentru producerea oțelurilor și în metabolism.
+Fe|Fier|26|55.845|Fierul este esențial pentru producerea hemoglobinei și în industrie.
+Co|Cobalt|27|58.933|Cobaltul este utilizat în baterii și în aliaje magnetice.
+Ni|Nichel|28|58.693|Nichelul este utilizat în aliaje și în producția de monede.
+Cu|Cupru|29|63.546|Cuprul este un metal conductor utilizat în electricitate și în instalații sanitare.
+Zn|Zinc|30|65.38|Zincul este utilizat în galvanizare și în producția de aliaje.
+Ga|Galiu|31|69.723|Galiul este utilizat în diode LED și în semiconductori.
+Ge|Germaniu|32|72.630|Germaniul este utilizat în fibre optice și în dispozitive electronice.
+As|Arsen|33|74.922|Arsenul este toxic, dar are utilizări în industria semiconductorilor.
+Se|Seleniu|34|78.971|Seleniul este esențial pentru sănătate și utilizat în industria electronică.
+Br|Brom|35|79.904|Bromul este utilizat în ignifuge și în medicină.
+Kr|Kripton|36|83.798|Kriptonul este un gaz nobil utilizat în iluminatul fluorescent.

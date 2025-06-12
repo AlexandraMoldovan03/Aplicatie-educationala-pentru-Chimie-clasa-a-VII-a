@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{DFA5FD94-3BDB-4FA0-A948-58E277D60AFC}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>LicentaChimie</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\MariaDB\MariaDB C++ Connector 64-bit\include</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>mariadbcpp.lib</AdditionalDependencies>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>C:\Program Files\MariaDB\MariaDB C++ Connector 64-bit</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\MariaDB\MariaDB C++ Connector 64-bit\include</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>mariadbcpp.lib</AdditionalDependencies>
+      <EntryPointSymbol>Main</EntryPointSymbol>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>C:\Program Files\MariaDB\MariaDB C++ Connector 64-bit</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.WebView2.WinForms">
+      <HintPath>..\..\..\.nuget\packages\microsoft.web.webview2\1.0.3124.44\lib\net462\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CatalogForm.cpp" />
+    <ClCompile Include="ConcentratieMenuForm.cpp" />
+    <ClCompile Include="DashboardForm.cpp" />
+    <ClCompile Include="ExercitiiMenuForm.cpp" />
+    <ClCompile Include="ExercitiuConcentratie1Form.cpp" />
+    <ClCompile Include="JocForm.cpp" />
+    <ClCompile Include="JocStructuraAtomForm.cpp" />
+    <ClCompile Include="JocTeorieForm.cpp" />
+    <ClCompile Include="Level1CeEsteChimia.cpp" />
+    <ClCompile Include="Level1Joc2.cpp" />
+    <ClCompile Include="Level2Joc.cpp" />
+    <ClCompile Include="Level3Joc.cpp" />
+    <ClCompile Include="Licenta_Chimie.cpp" />
+    <ClCompile Include="MainForm.cpp" />
+    <ClCompile Include="MoleculeBuilderForm.cpp" />
+    <ClCompile Include="PDFReaderForm.cpp" />
+    <ClCompile Include="PeriodicTableForm.cpp" />
+    <ClCompile Include="ProblemaConcentratieMolaraForm.cpp" />
+    <ClCompile Include="ProblemaMasaSolutieiForm.cpp" />
+    <ClCompile Include="ProblemaMasaSubstanteiForm.cpp" />
+    <ClCompile Include="ProblemaProcentualaForm.cpp" />
+    <ClCompile Include="ProblemaVolumForm1.cpp" />
+    <ClCompile Include="ReactionSolver.cpp" />
+    <ClCompile Include="ResurseSuplimentareMenu.cpp" />
+    <ClCompile Include="StartForm.cpp" />
+    <ClCompile Include="RegisterForm.cpp" />
+    <ClCompile Include="LoginForm.cpp" />
+    <ClCompile Include="TeorieMenuForm.cpp" />
+    <ClCompile Include="Test1Form.cpp" />
+    <ClCompile Include="Test2Form.cpp" />
+    <ClCompile Include="TestMenu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CatalogForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ConcentratieMenuForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DashboardForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ExercitiiMenuForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ExercitiuConcentratie1Form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="JocForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="JocStructuraAtomForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="JocTeorieForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Level1CeEsteChimia.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Level1Joc2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Level2Joc.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Level3Joc.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Licenta_Chimie.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MainForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MoleculeBuilderForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PDFReaderForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PeriodicTableForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ProblemaConcentratieMolaraForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ProblemaMasaSolutieiForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ProblemaMasaSubstanteiForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ProblemaProcentualaForm.h" />
+    <ClInclude Include="ProblemaVolumForm1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ReactionSolver.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ResurseSuplimentareMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="StartForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="RegisterForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="LoginForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TeorieMenuForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Test1Form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Test2Form.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TestMenu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CatalogForm.resx">
+      <DependentUpon>CatalogForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConcentratieMenuForm.resx">
+      <DependentUpon>ConcentratieMenuForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardForm.resx">
+      <DependentUpon>DashboardForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExercitiiMenuForm.resx">
+      <DependentUpon>ExercitiiMenuForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExercitiuConcentratie1Form.resx">
+      <DependentUpon>ExercitiuConcentratie1Form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JocForm.resx">
+      <DependentUpon>JocForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JocStructuraAtomForm.resx">
+      <DependentUpon>JocStructuraAtomForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JocTeorieForm.resx">
+      <DependentUpon>JocTeorieForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level1CeEsteChimia.resx">
+      <DependentUpon>Level1CeEsteChimia.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level1Joc2.resx">
+      <DependentUpon>Level1Joc2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level2Joc.resx">
+      <DependentUpon>Level2Joc.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Level3Joc.resx">
+      <DependentUpon>Level3Joc.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Licenta_Chimie.resx">
+      <DependentUpon>Licenta_Chimie.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoleculeBuilderForm.resx">
+      <DependentUpon>MoleculeBuilderForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDFReaderForm.resx">
+      <DependentUpon>PDFReaderForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PeriodicTableForm.resx">
+      <DependentUpon>PeriodicTableForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblemaConcentratieMolaraForm.resx">
+      <DependentUpon>ProblemaConcentratieMolaraForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblemaMasaSolutieiForm.resx">
+      <DependentUpon>ProblemaMasaSolutieiForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblemaMasaSubstanteiForm.resx">
+      <DependentUpon>ProblemaMasaSubstanteiForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProblemaProcentualaForm.resx" />
+    <EmbeddedResource Include="ProblemaVolumForm1.resx">
+      <DependentUpon>ProblemaVolumForm1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReactionSolver.resx">
+      <DependentUpon>ReactionSolver.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterForm.resx">
+      <DependentUpon>RegisterForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResurseSuplimentareMenu.resx">
+      <DependentUpon>ResurseSuplimentareMenu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartForm.resx">
+      <DependentUpon>StartForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeorieMenuForm.resx">
+      <DependentUpon>TeorieMenuForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test1Form.resx">
+      <DependentUpon>Test1Form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test2Form.resx">
+      <DependentUpon>Test2Form.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestMenu.resx">
+      <DependentUpon>TestMenu.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="elemente.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Licenta\Manual-Chimie-cl-7.pdf">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+      <DeploymentContent>true</DeploymentContent>
+      <FileType>Document</FileType>
+    </None>
+    <None Include="3Dmol-min.js" />
+    <None Include="editor.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Manual-Chimie-cl-7.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Downloads\fundalMainForm.png" />
+    <Image Include="balonWurtz.png" />
+    <Image Include="eprubeta.png" />
+    <Image Include="paharBerzelius.png" />
+    <Image Include="paharCuFundPlat.png" />
+    <Image Include="paharErlenmeyer.jpeg" />
+    <Image Include="palnieDeFiltrare.jpeg" />
+    <Image Include="sageata.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\Microsoft.Web.WebView2.1.0.3124.44\build\native\Microsoft.Web.WebView2.targets" Condition="Exists('packages\Microsoft.Web.WebView2.1.0.3124.44\build\native\Microsoft.Web.WebView2.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.Web.WebView2.1.0.3124.44\build\native\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Web.WebView2.1.0.3124.44\build\native\Microsoft.Web.WebView2.targets'))" />
+  </Target>
+</Project>
