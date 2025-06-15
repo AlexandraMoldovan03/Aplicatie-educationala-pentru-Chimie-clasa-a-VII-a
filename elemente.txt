@@ -34,3 +34,85 @@ As|Arsen|33|74.922|Arsenul este toxic, dar are utilizări în industria semicond
 Se|Seleniu|34|78.971|Seleniul este esențial pentru sănătate și utilizat în industria electronică.
 Br|Brom|35|79.904|Bromul este utilizat în ignifuge și în medicină.
 Kr|Kripton|36|83.798|Kriptonul este un gaz nobil utilizat în iluminatul fluorescent.
+Rb|Rubidiu|37|85.468|Rubidiul este un metal alcalin reactiv, utilizat în cercetare și în unele celule fotoelectrice.
+Sr|Stronțiu|38|87.62|Stronțiul este utilizat în focuri de artificii și în materiale fluorescente.
+Y|Ytriu|39|88.906|Ytriul este folosit în lasere, fosfori și materiale supraconductoare.
+Zr|Zirconiu|40|91.224|Zirconiul este rezistent la coroziune și este utilizat în reactoare nucleare.
+Nb|Niobiu|41|92.906|Niobiul este folosit în aliaje pentru conducte și magneți supraconductori.
+Mo|Molibden|42|95.95|Molibdenul este esențial pentru enzime și este utilizat în oțeluri rezistente.
+Tc|Tehnețiu|43|98|Tehnețiul este un element radioactiv folosit în medicină nucleară.
+Ru|Rutheniu|44|101.07|Rutheniul este folosit în contacte electrice și aliaje speciale.
+Rh|Rodiu|45|102.91|Rodiul este utilizat în catalizatori auto și bijuterii.
+Pd|Paladiu|46|106.42|Paladiul este folosit în catalizatori și în industria electronică.
+Ag|Argint|47|107.87|Argintul este un metal prețios utilizat în bijuterii și conductori electrici.
+Cd|Cadmiu|48|112.41|Cadmiul este folosit în baterii și pigmenți, dar este toxic.
+In|Indiu|49|114.82|Indiul este utilizat în ecrane tactile și semiconductori.
+Sn|Staniu|50|118.71|Staniul este folosit în aliaje și în acoperiri pentru protejarea altor metale.
+Sb|Antimoniu|51|121.76|Antimoniul este utilizat în ignifuge și semiconductori.
+Te|Telur|52|127.6|Telurul este folosit în aliaje și în industria electronică.
+I|Iod|53|126.9|Iodul este esențial în alimentație și este folosit ca antiseptic.
+Xe|Xenon|54|131.29|Xenonul este un gaz nobil folosit în lămpi și în anestezie.
+Cs|Cesiu|55|132.91|Cesiul este un metal moale utilizat în ceasuri atomice.
+Ba|Bariu|56|137.33|Bariul este folosit în radiologie și artificii.
+La|Lantan|57|138.91|Lantanul este folosit în lentile și baterii.
+Ce|Ceriu|58|140.12|Ceriul este utilizat în sticlă și catalizatori.
+Pr|Praseodim|59|140.91|Praseodimul este folosit în magneți și ochelari de sudură.
+Nd|Neodim|60|144.24|Neodimul este utilizat în magneți puternici și lasere.
+Pm|Prometiu|61|145|Prometiul este radioactiv și utilizat în generatoare nucleare.
+Sm|Samariu|62|150.36|Samariul este folosit în magneți și lasere.
+Eu|Europiu|63|151.96|Europiul este utilizat în ecrane TV și lămpi fluorescente.
+Gd|Gadoliniu|64|157.25|Gadoliniul este utilizat în imagistica prin rezonanță magnetică.
+Tb|Terbiu|65|158.93|Terbiul este folosit în lasere și fosfori.
+Dy|Disprosiu|66|162.5|Disprosiul este utilizat în magneți și lasere.
+Ho|Holmiu|67|164.93|Holmiul este utilizat în reactoare nucleare.
+Er|Erbiu|68|167.26|Erbiul este folosit în fibre optice și lasere.
+Tm|Tuliu|69|168.93|Tuliul este utilizat în surse de radiație portabile.
+Yb|Yterbiu|70|173.05|Yterbiul este folosit în lasere și ceasuri atomice.
+Lu|Lutețiu|71|174.97|Lutețiul este utilizat în tomografia computerizată.
+Hf|Hafniu|72|178.49|Hafniul este folosit în aliaje și reactoare nucleare.
+Ta|Tantal|73|180.95|Tantalul este utilizat în condensatori și implanturi medicale.
+W|Wolfram|74|183.84|Wolframul este folosit în filament și unelte dure.
+Re|Reniu|75|186.21|Reniul este utilizat în turbine și aliaje.
+Os|Osmiu|76|190.23|Osmiul este un metal dens folosit în contacte electrice.
+Ir|Iridiu|77|192.22|Iridiul este folosit în aliaje și contacte electrice.
+Pt|Platină|78|195.08|Platina este un metal prețios utilizat în catalizatori și bijuterii.
+Au|Aur|79|196.97|Aurul este un metal prețios folosit în bijuterii și electronică.
+Hg|Mercur|80|200.59|Mercurul este un metal lichid utilizat în termometre și lămpi.
+Tl|Taliu|81|204.38|Taliul este toxic și folosit în unele materiale electronice.
+Pb|Plumb|82|207.2|Plumbul este folosit în acumulatori și protecție împotriva radiațiilor.
+Bi|Bismut|83|208.98|Bismutul este folosit în cosmetice și medicamente.
+Po|Poloniu|84|209|Poloniul este radioactiv și folosit în surse de căldură.
+At|Astatiniu|85|210|Astatiniul este un halogen rar și radioactiv.
+Rn|Radon|86|222|Radonul este un gaz radioactiv natural.
+Fr|Franciu|87|223|Franciu este un element foarte rar și radioactiv.
+Ra|Radiu|88|226|Radiul este un element radioactiv folosit în trecut în medicină.
+Ac|Actiniu|89|227|Actiniul este un element radioactiv utilizat în cercetare.
+Th|Toriu|90|232.04|Toriul este utilizat ca combustibil nuclear.
+Pa|Protactiniu|91|231.04|Protactiniul este radioactiv și rar.
+U|Uraniu|92|238.03|Uraniul este folosit ca combustibil nuclear.
+Np|Neptuniu|93|237|Neptuniul este un element radioactiv produs artificial.
+Pu|Plutoniu|94|244|Plutoniul este utilizat în arme nucleare și reactoare.
+Am|Americiu|95|243|Americiul este folosit în detectoare de fum.
+Cm|Curiu|96|247|Curiul este radioactiv și folosit în cercetare.
+Bk|Berkeliu|97|247|Berkeliul este un element sintetic radioactiv.
+Cf|Californiu|98|251|Californiul este utilizat în surse de neutroni.
+Es|Einsteiniu|99|252|Einsteiniul este produs în reacții nucleare.
+Fm|Fermiu|100|257|Fermiul este un element sintetic rar.
+Md|Mendeleeviu|101|258|Mendeleeviul este un element radioactiv artificial.
+No|Nobelium|102|259|Nobeliul este utilizat în cercetări nucleare.
+Lr|Laureniu|103|266|Laureniul este un element radioactiv sintetic.
+Rf|Rutherfordiu|104|267|Rutherfordiul este un element super-greu sintetic.
+Db|Dubniu|105|268|Dubniul este un element creat în laborator.
+Sg|Seaborgiu|106|269|Seaborgiul este un element sintetic radioactiv.
+Bh|Bohr|107|270|Bohrul este un element super-greu.
+Hs|Hassiu|108|277|Hassiul este un element radioactiv creat în laborator.
+Mt|Meitneriu|109|278|Meitneriul este un element artificial foarte instabil.
+Ds|Darmstadtiu|110|281|Darmstadtiul este un element sintetic foarte greu.
+Rg|Roentgeniu|111|282|Roentgeniul este un element radioactiv creat în laborator.
+Cn|Coperniciu|112|285|Coperniciul este un element chimic sintetic.
+Nh|Nihoniu|113|286|Nihoniul este un element super-greu descoperit recent.
+Fl|Fleroviu|114|289|Fleroviul este un element radioactiv sintetic.
+Mc|Moscoviu|115|290|Moscoviul este un element foarte greu creat în laborator.
+Lv|Livermoriu|116|293|Livermoriul este un element sintetic cu viață scurtă.
+Ts|Tenesin|117|294|Tenesinul este un element super-greu și instabil.
+Og|Oganeson|118|294|Oganesonul este cel mai greu gaz nobil cunoscut.
